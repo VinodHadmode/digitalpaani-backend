@@ -4,8 +4,13 @@ const { connection } = require("./db")
 
 const app = express()
 
+//middlewares
 app.use(express.json())
+app.use("/users",userRouter)
 
+
+
+//server
 app.listen(8080, async () => {
     try {
         await connection
