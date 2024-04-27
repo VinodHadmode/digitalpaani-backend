@@ -1,6 +1,6 @@
 const express=require("express")
 const { BookModel } = require("../models/book.model")
-const { auth } = require("../middleware/authmiddleware")
+const { auth } = require("../middlewares/auth.middleware")
 
 const bookRouter=express.Router()
 

@@ -1,5 +1,7 @@
 const express = require("express")
 const { connection } = require("./db")
+const { userRouter } = require("./routes/user.route")
+const { bookRouter } = require("./routes/book.route")
 
 
 const app = express()
@@ -8,7 +10,6 @@ const app = express()
 app.use(express.json())
 app.use("/users",userRouter)
 app.use("/books",bookRouter)
-
 
 
 //server
