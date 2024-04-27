@@ -9,6 +9,7 @@ Backend
 
 ## Deplolyed App
 Backend: https://digitalpaani-backend-ou4e.onrender.com/books
+
 Database: MongoDB
 
 ## Directory Structure
@@ -57,9 +58,13 @@ If your application relies on external APIs, document them and include any neces
 
 ## API Endpoints
 In case of Backend Applications provide a list of your API endpoints, methods, brief descriptions, and examples of request/response.
+
 GET / https://digitalpaani-backend-ou4e.onrender.com/books - retrieve all books
+
 POST / https://digitalpaani-backend-ou4e.onrender.com/books/create - create a new item
+
 PATCH / https://digitalpaani-backend-ou4e.onrender.com/books/update/:bookID - create a new item
+
 DELETE / https://digitalpaani-backend-ou4e.onrender.com/books/delete/:bookID - create a new item
 
 
